@@ -1,0 +1,13 @@
+[CASE]
+case_id=all
+
+[mysql]
+db_config={'host':'47.107.168.87','user':'python','password':'python666','port':3306,'database':'future'}
+MId=1123888
+Sql={'sql':'select LeaveAmount from member where MobilePhone=13512365669'}
+normal_phone=13512365669
+normal_pwd=123456
+
+[loger]
+format='%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s'
+
